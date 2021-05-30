@@ -31,12 +31,12 @@
 }
 
 .symbols-2 {
-    right: 0;
+    right: 20;
     bottom: 0;
 }
 
 .symbols-3 {
-    left: 0;
+    left: 20;
     bottom: 0;
 }
 
@@ -46,30 +46,30 @@
 }
 
 .symbols-5 {
-    left: 0;
+    left: 40;
     bottom: 0;
 }
 
 .symbols-6 {
-    right: 0;
+    right: 40;
     bottom: 0;
 }
 .symbols-7 {
-    right: 0;
+    right: 80;
+    bottom: 0;
+}
+
+.symbols-6 {
+    right: 60;
     bottom: 0;
 }
 
 .symbols-6 {
     right: 0;
-    bottom: 0;
+    bottom: 40;
 }
 
 .symbols-6 {
     right: 0;
-    bottom: 0;
-}
-
-.symbols-6 {
-    right: 0;
-    bottom: 0;
+    bottom: 80;
 }
