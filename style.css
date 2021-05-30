@@ -1,4 +1,75 @@
-img.displayed {
+.center {
     display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto;
+    width: 40%;
+  }
+  .row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.symbols {
+    position: absolute;
+    width: 100px;
+    user-select: none;
+    cursor: grab;
+}
+
+.is-dragged {
+    user-select: auto;
+    cursor: grabbing;
+}
+
+.symbols-1 {
+    right: 0;
+    bottom: 0;
+}
+
+.symbols-2 {
+    right: 0;
+    bottom: 0;
+}
+
+.symbols-3 {
+    left: 0;
+    bottom: 0;
+}
+
+.symbols-4 {
+    left: 0;
+    bottom: 0;
+}
+
+.symbols-5 {
+    left: 0;
+    bottom: 0;
+}
+
+.symbols-6 {
+    right: 0;
+    bottom: 0;
+}
+.symbols-7 {
+    right: 0;
+    bottom: 0;
+}
+
+.symbols-6 {
+    right: 0;
+    bottom: 0;
+}
+
+.symbols-6 {
+    right: 0;
+    bottom: 0;
+}
+
+.symbols-6 {
+    right: 0;
+    bottom: 0;
+}
