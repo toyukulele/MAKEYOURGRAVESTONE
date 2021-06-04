@@ -1,3 +1,8 @@
+
+.body {
+    margin: 0;
+}
+
 .box {
     height: 500px;
     visibility: hidden;
@@ -7,7 +12,7 @@
 section {
     padding: 0;
     margin: 0%;
-    background: radial-gradient(#6e946a 10%, #b7ab98 20%, #cb3e3e 40%);
+    background: conic-gradient( #6e946a, #b7ab98, #cb3e3e);
     background-size: 500% 500%;
     position: relative;
     animation: change 15s ease-in-out infinite;
@@ -35,6 +40,16 @@ section {
     width: 40%;
     z-index: 6;
   }
+
+
+.grave-center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    z-index: 6;
+    position: relative;
+}
+
   .row {
   display: flex;
   margin: auto;
@@ -49,11 +64,16 @@ section {
 }
 
 .symbols {
-    position: absolute;
-    width: 2px;
+    position: relative;
     user-select: none;
+    z-index: 40;
+    height: 300px;
+}
+
+.symbol {
+    position: absolute;
     cursor: grab;
-    z-index: 4;
+    z-index: 10;
 }
 
 .is-dragged {
@@ -64,7 +84,7 @@ section {
 .symbols-1 {
     right: 0;
     bottom: 0;
-    z-index: 6
+    z-index: 60;
 }
 
 .symbols-2 {
@@ -74,67 +94,62 @@ section {
 }
 
 .symbols-3 {
-    left: 20;
+    left: 200px;
     bottom: 0;
-    z-index: 6
+    z-index: 60;
 }
 
 .symbols-4 {
-    left: 30;
+    left: 30px;
     bottom: 0;
-    z-index: 6
+    z-index: 60;
 }
 
 .symbols-5 {
-    left: 40;
+    left: 40px;
     bottom: 0;
-    z-index: 6
+    z-index: 60;
 }
 
 .symbols-6 {
-    right: 40;
+    right: 100px;
     bottom: 0;
-    z-index: 6
+    z-index: 60;
 }
 .symbols-7 {
-    right: 80;
+    right: 90px;
     bottom: 0;
-    z-index: 6
+    z-index: 60;
 }
 
 .symbols-8 {
-    right: 10;
+    right: 200px;
     bottom: 0;
-    z-index: 6
+    z-index: 60;
 }
 
 .symbols-9 {
     right: 0;
-    bottom: 0;
-    z-index: 6
+    bottom: 20px;
+    z-index: 60;
 }
 
 .symbols-10 {
     right: 0;
-    bottom: 0;
-    z-index: 6
+    bottom: 90px;
+    z-index: 60;
 } 
 
 
 .big-grave {
-    position:absolute;
-    width: 40%;
+    position: absolute;
+    width: 100%;
     z-index: 2;
 }
 
 .big-place {
     position: absolute;
-    width: 40%;
+    width: 100%;
     z-index: 3;
 }
 
-.grain {
-    position: fixed;
-    opacity: 20%;
-    z-index: 0;
-}
