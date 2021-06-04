@@ -1,23 +1,59 @@
+.box {
+    height: 500px;
+    visibility: hidden;
+}
+
+
+section {
+    padding: 0;
+    margin: 0%;
+    background: radial-gradient(#6e946a 10%, #b7ab98 20%, #cb3e3e 40%);
+    background-size: 500% 500%;
+    position: relative;
+    animation: change 15s ease-in-out infinite;
+}
+
+
+@keyframes change {
+  0%{
+    background-position: 0 50%;  
+  }
+  50%{
+    background-position: 100% 50%;  
+  }
+  100%{
+    background-position: 0 50%;  
+  }
+}
+ 
+
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    z-index: 6;
   }
   .row {
   display: flex;
+  margin: auto;
+  width: 50%;
+  padding: 5px;
 }
 
 .column {
   flex: 33.33%;
-  padding: 5px;
+  padding: 1px;
+  z-index: 2;
 }
 
 .symbols {
     position: absolute;
-    width: 100px;
+    width: 2px;
     user-select: none;
     cursor: grab;
+    z-index: 4;
 }
 
 .is-dragged {
@@ -28,48 +64,77 @@
 .symbols-1 {
     right: 0;
     bottom: 0;
+    z-index: 6
 }
 
 .symbols-2 {
     right: 20;
     bottom: 0;
+    z-index: 6
 }
 
 .symbols-3 {
     left: 20;
     bottom: 0;
+    z-index: 6
 }
 
 .symbols-4 {
-    left: 0;
+    left: 30;
     bottom: 0;
+    z-index: 6
 }
 
 .symbols-5 {
     left: 40;
     bottom: 0;
+    z-index: 6
 }
 
 .symbols-6 {
     right: 40;
     bottom: 0;
+    z-index: 6
 }
 .symbols-7 {
     right: 80;
     bottom: 0;
+    z-index: 6
 }
 
-.symbols-6 {
-    right: 60;
+.symbols-8 {
+    right: 10;
     bottom: 0;
+    z-index: 6
 }
 
-.symbols-6 {
+.symbols-9 {
     right: 0;
-    bottom: 40;
+    bottom: 0;
+    z-index: 6
 }
 
-.symbols-6 {
+.symbols-10 {
     right: 0;
-    bottom: 80;
+    bottom: 0;
+    z-index: 6
+} 
+
+
+.big-grave {
+    position:absolute;
+    width: 40%;
+    z-index: 2;
+}
+
+.big-place {
+    position: absolute;
+    width: 40%;
+    z-index: 3;
+}
+
+.grain {
+    position: fixed;
+    opacity: 20%;
+    z-index: 0;
 }
