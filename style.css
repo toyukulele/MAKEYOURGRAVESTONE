@@ -1,10 +1,19 @@
 
 .body {
-    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
 .box {
     height: 500px;
+    visibility: hidden;
+}
+
+
+.box-1 {
+    height: 50px;
     visibility: hidden;
 }
 
@@ -61,13 +70,25 @@ section {
   flex: 33.33%;
   padding: 1px;
   z-index: 2;
+  position: relative;
 }
+
+.column-text {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+  }
+  
+  .column:hover .column-text {
+    opacity: 1;
+  }
 
 .symbols {
     position: relative;
     user-select: none;
     z-index: 40;
-    height: 300px;
+    height: 200px;
 }
 
 .symbol {
@@ -153,3 +174,7 @@ section {
     z-index: 3;
 }
 
+.grave-img {
+    width: 40%;
+    cursor: pointer;
+}
