@@ -15,7 +15,7 @@
 
 
 .box-1 {
-    height: 50px;
+    height: 70px;
     visibility: hidden;
 }
 
@@ -56,7 +56,7 @@
 .column-text {
     position: absolute;
     top: 100%;
-    left: 0;
+    left: 10px;
     opacity: 0;
   }
   
@@ -156,5 +156,10 @@
 
 .grave-img {
     width: 40%;
+    cursor: pointer;
+}
+
+.place-img {
+    width: 50%;
     cursor: pointer;
 }
