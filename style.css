@@ -76,7 +76,7 @@
     position: relative;
     user-select: none;
     z-index: 40;
-    height: 200px;
+    height: 1000px;
 }
 
 .symbol {
@@ -91,64 +91,240 @@
 }
 
 .symbols-1 {
-    right: 0;
-    bottom: 0;
+    left: 320px;
+    top: -40px;
     z-index: 60;
 }
 
 .symbols-2 {
-    right: 20;
-    bottom: 0;
+    right: 300px;
+    top: 0px;
     z-index: 6
 }
 
 .symbols-3 {
-    left: 200px;
-    bottom: 0;
+    left: 100px;
+    bottom: 450px;
     z-index: 60;
 }
 
 .symbols-4 {
-    left: 30px;
-    bottom: 0;
+    left: 100px;
+    top: -50px;
     z-index: 60;
 }
 
 .symbols-5 {
-    left: 40px;
-    bottom: 0;
+    left: 0px;
+    top: 360px;
     z-index: 60;
 }
 
 .symbols-6 {
-    right: 100px;
-    bottom: 0;
+    right: 200px;
+    top: 100px;
     z-index: 60;
 }
 .symbols-7 {
-    right: 90px;
-    bottom: 0;
+    right: 300px;
+    top: 200px;
     z-index: 60;
 }
 
 .symbols-8 {
-    right: 200px;
-    bottom: 0;
+    right: 300px;
+    top: 80px;
     z-index: 60;
 }
 
 .symbols-9 {
-    right: 0;
-    bottom: 20px;
+    right: 0px;
+    top: 300px;
     z-index: 60;
 }
 
 .symbols-10 {
-    right: 0;
-    bottom: 90px;
+    right: 0px;
+    top: -50px;
     z-index: 60;
 } 
 
+.symbols-11 {
+    right: 300px;
+    top: 380px;
+    z-index: 60;
+} 
+
+.symbols-12 {
+    right: 200px;
+    top: 200px;
+    z-index: 60;
+} 
+
+.symbols-13 {
+    right: 300px;
+    top: 300px;
+    z-index: 60;
+} 
+
+.symbols-14 {
+    right: 170px;
+    top: 300px;
+    z-index: 60;
+} 
+
+.symbols-15 {
+    right: 300px;
+    top: 450px;
+    z-index: 60;
+} 
+
+.symbols-16 {
+    right: 100px;
+    top: -20px;
+    z-index: 60;
+} 
+
+.symbols-17 {
+    right: 0px;
+    top: 200px;
+    z-index: 60;
+} 
+
+.symbols-18 {
+    right: 0px;
+    top: 100px;
+    z-index: 60;
+} 
+
+.symbols-19 {
+    right: 100px;
+    top: 200px;
+    z-index: 60;
+} 
+
+.symbols-20 {
+    right: 200px;
+    top: -20px;
+    z-index: 60;
+} 
+
+.symbols-21 {
+    right: 400px;
+    top: -20px;
+    z-index: 60;
+} 
+
+.symbols-22 {
+    right: 100px;
+    top: 420px;
+    z-index: 60;
+} 
+
+.symbols-23 {
+    right: 0px;
+    top: 390px;
+    z-index: 60;
+} 
+
+.symbols-24 {
+    left: 200px;
+    top: 350px;
+    z-index: 60;
+} 
+
+.symbols-25 {
+    left: 100px;
+    top: 400px;
+    z-index: 60;
+} 
+
+.symbols-26 {
+    left: 200px;
+    top: 440px;
+    z-index: 60;
+} 
+
+.symbols-27 {
+    right: 100px;
+    top: 120px;
+    z-index: 60;
+} 
+.symbols-28 {
+    left: 0px;
+    top: 90px;
+    z-index: 60;
+} 
+.symbols-29 {
+    left: 130px;
+    top: 90px;
+    z-index: 60;
+} 
+
+.symbols-30 {
+    left: 250px;
+    top: 90px;
+    z-index: 60;
+} 
+
+.symbols-31 {
+    left: 80px;
+    top: 200px;
+    z-index: 60;
+} 
+
+.symbols-32 {
+    left: 190px;
+    top: 200px;
+    z-index: 60;
+} 
+
+.symbols-33 {
+    left: 220px;
+    top: 300px;
+    z-index: 60;
+} 
+
+.symbols-34 {
+    left: 100px;
+    top: 300px;
+    z-index: 60;
+} 
+
+.symbols-35 {
+    left: 200px;
+    top: -30px;
+    z-index: 60;
+} 
+.symbols-36 {
+    left: 0px;
+    top: -50px;
+    z-index: 60;
+} 
+
+.symbols-37 {
+    left: 0px;
+    top: 450px;
+    z-index: 60;
+} 
+
+.symbols-38 {
+    left: 0;
+    top: 40px;
+    z-index: 60;
+} 
+
+.symbols-39 {
+    left: 0px;
+    top: 220px;
+    z-index: 60;
+} 
+
+.symbols-40 {
+    left: 0px;
+    top: 300px;
+    z-index: 60;
+} 
 
 .big-grave {
     position: absolute;
@@ -157,8 +333,11 @@
 }
 
 .big-place {
-    position: absolute;
-    width: 100%;
+    position: relative;
+    left: 50%;
+    top: 250px;
+    transform: translate(-50%, -50%);
+    width: 70%;
     z-index: 3;
 }
 
