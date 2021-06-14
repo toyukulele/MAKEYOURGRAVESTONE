@@ -3,7 +3,7 @@ function showTombstones() {
     var x = Math.floor(Math.random() * 6 + 1);
     console.log(x);
     document.getElementById("divImage").innerHTML += `
-       <img src="images/g${x}.png" style="width:100px;" >
+       <img src="images/g${x}.png" style="width:150px;" >
    `;
   }
 }
