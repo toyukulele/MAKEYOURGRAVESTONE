@@ -87,7 +87,8 @@
   .symbol-text {
     position: absolute;
     top: 100%;
-    left: 10px;
+    left: 50%;
+    transform: translate(-50%);
     opacity: 0;
   }
 
@@ -110,9 +111,9 @@
   
   .symbols-2 {
     width: 100px;
-    right: 300px;
-    top: 0px;
-    z-index: 6;
+    left: 200px;
+    top: -50px;
+    z-index: 60;
   }
   
   .symbols-3 {
@@ -291,7 +292,7 @@
   .symbols-28 {
     width: 100px;
     left: 0px;
-    top: 90px;
+    top: 120px;
     z-index: 60;
   }
   .symbols-29 {
@@ -310,7 +311,7 @@
   
   .symbols-31 {
     width: 100px;
-    left: 80px;
+    left: 100px;
     top: 200px;
     z-index: 60;
   }
@@ -325,21 +326,21 @@
   .symbols-33 {
     width: 100px;
     left: 220px;
-    top: 300px;
+    top: 260px;
     z-index: 60;
   }
   
   .symbols-34 {
     width: 100px;
     left: 100px;
-    top: 300px;
+    top: 280px;
     z-index: 60;
   }
   
   .symbols-35 {
     width: 100px;
-    left: 200px;
-    top: -30px;
+    left: 130px;
+    top: 20px;
     z-index: 60;
   }
   .symbols-36 {

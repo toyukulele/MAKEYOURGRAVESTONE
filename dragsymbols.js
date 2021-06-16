@@ -1,8 +1,33 @@
 var symbols = document.querySelectorAll(".symbol");
 
 symbols.forEach(function (symbol) {
-  symbol.addEventListener("mousedown", function (e) {
-    symbol.classList.add("is-dragged");
+  symbol.addEventListener("mousedown", function (event) {
+    let shiftX = event.clientX - symbol.getBoundingClientRect().left;
+    let shiftY = event.clientY - symbol.getBoundingClientRect().top;
+
+    document.body.append(symbol);
+    symbol.style.zIndex = 1000;
+
+    moveAt(event.pageX, event.pageY);
+
+    function moveAt(pageX, pageY) {
+      symbol.style.left = pageX - shiftX + "px";
+      symbol.style.top = pageY - shiftY + "px";
+    }
+
+    function onMouseMove(event) {
+      moveAt(event.pageX, event.pageY);
+    }
+
+    document.addEventListener("mousemove", onMouseMove);
+
+    symbol.onmouseup = function () {
+      document.removeEventListener("mousemove", onMouseMove);
+      symbol.onmouseup = null;
+    };
+    symbol.ondragstart = function () {
+      return false;
+    };
   });
 });
 
@@ -12,17 +37,4 @@ window.addEventListener("mouseup", function () {
   });
 });
 
-window.addEventListener("mousemove", function (event) {
-  var draggedElement = document.querySelector(".is-dragged");
-
-  if (draggedElement) {
-    var draggedElementRect = draggedElement.getBoundingClientRect();
-    var translateX =
-      event.clientX - draggedElementRect.left + draggedElementRect.width / 2;
-    var translateY =
-      event.clientY - draggedElementRect.top + draggedElementRect.height / 2;
-    console.log(translateX, translateY);
-    var translate = "translate(" + translateX + "px, " + translateY + "px)";
-    draggedElement.style.transform = translate;
-  }
-});
+window.addEventListener("mousemove", function (event) {});

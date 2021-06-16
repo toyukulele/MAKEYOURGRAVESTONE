@@ -3,7 +3,7 @@ function showTombstones() {
     var x = Math.floor(Math.random() * 6 + 1);
     console.log(x);
     document.getElementById("divImage").innerHTML += `
-       <img src="images/g${x}.png" style="width:150px;" >
+       <img src="images/g${x}.svg" style="width:150px;" >
    `;
   }
 }
@@ -12,7 +12,7 @@ var symbols = [
   {
     imgPath: "6.svg", text: "Знания", },
   {
-    imgPath: "47.svg", text: "Победы", },
+    imgPath: "77.svg", text: "Победы", },
   {
     imgPath: "8.svg", text: "Дом", },
   {
