@@ -6,6 +6,7 @@
     background-image: url("bg.png");
   }
   
+
   .box {
     height: 500px;
     visibility: hidden;
@@ -16,11 +17,25 @@
     visibility: hidden;
   }
   
+  .button2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border-width: 2.9px;
+    cursor: pointer;
+    width: 40%;
+    padding: 0;
+    background-color: none;
+    background: none;
+  }
+
   .button {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: none;
+    border-radius: 30px;
+    border-width: 2.9px;
     cursor: pointer;
     width: 40%;
     padding: 0;
@@ -74,7 +89,7 @@
     position: relative;
     user-select: none;
     z-index: 40;
-    height: 850px;
+    height: 800px;
   }
   
   

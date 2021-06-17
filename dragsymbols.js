@@ -1,3 +1,13 @@
+
+
+const screenshotTarget = document.body;
+
+html2canvas(screenshotTarget).then((canvas) => {
+    const base64image = canvas.toDataURL("image/png");
+    window.location.href = base64image;
+});
+
+
 var symbols = document.querySelectorAll(".symbol");
 
 symbols.forEach(function (symbol) {
@@ -38,3 +48,4 @@ window.addEventListener("mouseup", function () {
 });
 
 window.addEventListener("mousemove", function (event) {});
+
