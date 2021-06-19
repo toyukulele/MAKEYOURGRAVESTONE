@@ -1,419 +1,416 @@
+html {
+  font-size: calc(10 / 1440 * 100vw);
+}
+
 .body {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    background-image: url("bg.png");
-  }
-  
+  margin: 0;
+  background-image: url("bg.png");
+}
 
-  .box {
-    height: 500px;
-    visibility: hidden;
-  }
-  
-  .box-1 {
-    height: 70px;
-    visibility: hidden;
-  }
-  
-  .button2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 30px;
-    border-width: 2.9px;
-    cursor: pointer;
-    width: 40%;
-    padding: 0;
-    background-color: none;
-    background: none;
-  }
+.box {
+  height: 50rem;
+  visibility: hidden;
+}
 
-  .button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 30px;
-    border-width: 2.9px;
-    cursor: pointer;
-    width: 40%;
-    padding: 0;
-    background-color: none;
-    background: none;
-  }
-  
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    z-index: 6;
-  }
-  
-  .grave-center {
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    z-index: 6;
-    position: relative;
-  }
-  
-  .row {
-    display: flex;
-    margin: auto;
-    width: 50%;
-    padding: 5px;
-  }
-  
-  .column {
-    flex: 33.33%;
-    padding: 1px;
-    z-index: 2;
-    position: relative;
-  }
-  
-  .column-text {
-    position: absolute;
-    top: 100%;
-    left: 10px;
-    opacity: 0;
-  }
-  
-  .column:hover .column-text {
-    opacity: 1;
-  }
+.box-1 {
+  height: 7rem;
+  visibility: hidden;
+}
 
-  
-  .symbols {
-    position: relative;
-    user-select: none;
-    z-index: 40;
-    height: 800px;
-  }
-  
-  
-  .symbol {
-    position: absolute;
-    cursor: grab;
-    z-index: 10;
-  }
-  
-  .symbol-text {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%);
-    opacity: 0;
-  }
+.button2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3rem;
+  border-width: 0.29rem;
+  cursor: pointer;
+  width: 40%;
+  padding: 0;
+  background-color: none;
+  background: none;
+}
 
-  .symbol:hover .symbol-text {
-    opacity: 1;
-  }
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3rem;
+  border-width: 0.29rem;
+  cursor: pointer;
+  width: 40%;
+  padding: 0;
+  background-color: none;
+  background: none;
+}
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  z-index: 6;
+}
 
-  .is-dragged {
-    user-select: auto;
-    cursor: grabbing;
-  }
-  
-  .symbols-1 {
-    width: 100px;
-    left: 320px;
-    top: -40px;
-    z-index: 60;
-  }
-  
-  .symbols-2 {
-    width: 100px;
-    left: 200px;
-    top: -50px;
-    z-index: 60;
-  }
-  
-  .symbols-3 {
-    width: 100px;
-    left: 100px;
-    bottom: 450px;
-    z-index: 60;
-  }
-  
-  .symbols-4 {
-    width: 100px;
-    left: 100px;
-    top: -50px;
-    z-index: 60;
-  }
-  
-  .symbols-5 {
-    width: 100px;
-    left: 0px;
-    top: 360px;
-    z-index: 60;
-  }
-  
-  .symbols-6 {
-    width: 100px;
-    right: 200px;
-    top: 100px;
-    z-index: 60;
-  }
-  .symbols-7 {
-    width: 100px;
-    right: 300px;
-    top: 200px;
-    z-index: 60;
-  }
-  
-  .symbols-8 {
-    width: 100px;
-    right: 300px;
-    top: 80px;
-    z-index: 60;
-  }
-  
-  .symbols-9 {
-    width: 100px;
-    right: 0px;
-    top: 300px;
-    z-index: 60;
-  }
-  
-  .symbols-10 {
-    width: 100px;
-    right: 0px;
-    top: -50px;
-    z-index: 60;
-  }
-  
-  .symbols-11 {
-    width: 100px;
-    right: 300px;
-    top: 380px;
-    z-index: 60;
-  }
-  
-  .symbols-12 {
-    width: 100px;
-    right: 200px;
-    top: 200px;
-    z-index: 60;
-  }
-  
-  .symbols-13 {
-    width: 100px;
-    right: 300px;
-    top: 300px;
-    z-index: 60;
-  }
-  
-  .symbols-14 {
-    width: 100px;
-    right: 170px;
-    top: 300px;
-    z-index: 60;
-  }
-  
-  .symbols-15 {
-    width: 100px;
-    right: 300px;
-    top: 450px;
-    z-index: 60;
-  }
-  
-  .symbols-16 {
-    width: 100px;
-    right: 100px;
-    top: -20px;
-    z-index: 60;
-  }
-  
-  .symbols-17 {
-    width: 100px;
-    right: 0px;
-    top: 200px;
-    z-index: 60;
-  }
-  
-  .symbols-18 {
-    width: 100px;
-    right: 0px;
-    top: 100px;
-    z-index: 60;
-  }
-  
-  .symbols-19 {
-    width: 100px;
-    right: 100px;
-    top: 200px;
-    z-index: 60;
-  }
-  
-  .symbols-20 {
-    width: 170px;
-    right: 200px;
-    top: -20px;
-    z-index: 60;
-  }
-  
-  .symbols-21 {
-    width: 100px;
-    right: 400px;
-    top: -20px;
-    z-index: 60;
-  }
-  
-  .symbols-22 {
-    width: 170px;
-    right: 100px;
-    top: 420px;
-    z-index: 60;
-  }
-  
-  .symbols-23 {
-    width: 100px;
-    right: 0px;
-    top: 390px;
-    z-index: 60;
-  }
-  
-  .symbols-24 {
-    width: 100px;
-    left: 200px;
-    top: 350px;
-    z-index: 60;
-  }
-  
-  .symbols-25 {
-    width: 100px;
-    left: 100px;
-    top: 400px;
-    z-index: 60;
-  }
-  
-  .symbols-26 {
-    width: 100px;
-    left: 200px;
-    top: 440px;
-    z-index: 60;
-  }
-  
-  .symbols-27 {
-    width: 100px;
-    right: 100px;
-    top: 120px;
-    z-index: 60;
-  }
-  .symbols-28 {
-    width: 100px;
-    left: 0px;
-    top: 120px;
-    z-index: 60;
-  }
-  .symbols-29 {
-    width: 100px;
-    left: 130px;
-    top: 90px;
-    z-index: 60;
-  }
-  
-  .symbols-30 {
-    width: 100px;
-    left: 250px;
-    top: 90px;
-    z-index: 60;
-  }
-  
-  .symbols-31 {
-    width: 100px;
-    left: 100px;
-    top: 200px;
-    z-index: 60;
-  }
-  
-  .symbols-32 {
-    width: 100px;
-    left: 190px;
-    top: 200px;
-    z-index: 60;
-  }
-  
-  .symbols-33 {
-    width: 100px;
-    left: 220px;
-    top: 260px;
-    z-index: 60;
-  }
-  
-  .symbols-34 {
-    width: 100px;
-    left: 100px;
-    top: 280px;
-    z-index: 60;
-  }
-  
-  .symbols-35 {
-    width: 100px;
-    left: 130px;
-    top: 20px;
-    z-index: 60;
-  }
-  .symbols-36 {
-    width: 100px;
-    left: 0px;
-    top: -50px;
-    z-index: 60;
-  }
-  
-  .symbols-37 {
-    width: 100px;
-    left: 0px;
-    top: 450px;
-    z-index: 60;
-  }
-  
-  .symbols-38 {
-    width: 100px;
-    left: 0;
-    top: 40px;
-    z-index: 60;
-  }
-  
-  .symbols-39 {
-    width: 100px;
-    left: 0px;
-    top: 220px;
-    z-index: 60;
-  }
-  
-  .symbols-40 {
-    width: 100px;
-    left: 0px;
-    top: 300px;
-    z-index: 60;
-  }
-  
-  .big-grave {
-    position: absolute;
-    width: 100%;
-    z-index: 2;
-  }
-  
-  .big-place {
-    position: relative;
-    left: 50%;
-    top: 250px;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    z-index: 3;
-  }
-  
-  .grave-img {
-    width: 40%;
-    cursor: pointer;
-  }
-  
-  .place-img {
-    width: 50%;
-    cursor: pointer;
-  }
+.grave-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  z-index: 6;
+  position: relative;
+}
+
+.row {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  padding: 0.5rem;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 1px;
+  z-index: 2;
+  position: relative;
+}
+
+.column-text {
+  position: absolute;
+  top: 100%;
+  left: 1rem;
+  opacity: 0;
+}
+
+.column:hover .column-text {
+  opacity: 1;
+}
+
+.symbols {
+  position: relative;
+  user-select: none;
+  z-index: 40;
+  height: 80rem;
+}
+
+.symbol {
+  position: absolute;
+  cursor: grab;
+  z-index: 10;
+}
+
+.symbol-text {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  opacity: 0;
+}
+
+.symbol:hover .symbol-text {
+  opacity: 1;
+}
+
+.is-dragged {
+  user-select: auto;
+  cursor: grabbing;
+}
+
+.symbols-1 {
+  width: 1rem;
+  left: 32rem;
+  top: -4rem;
+  z-index: 60;
+}
+
+.symbols-2 {
+  width: 10rem;
+  left: 20rem;
+  top: -5rem;
+  z-index: 60;
+}
+
+.symbols-3 {
+  width: 10rem;
+  left: 10rem;
+  bottom: 45rem;
+  z-index: 60;
+}
+
+.symbols-4 {
+  width: 10rem;
+  left: 10rem;
+  top: -5rem;
+  z-index: 60;
+}
+
+.symbols-5 {
+  width: 10rem;
+  left: 0px;
+  top: 36rem;
+  z-index: 60;
+}
+
+.symbols-6 {
+  width: 10rem;
+  right: 20rem;
+  top: 10rem;
+  z-index: 60;
+}
+.symbols-7 {
+  width: 10rem;
+  right: 30rem;
+  top: 20rem;
+  z-index: 60;
+}
+
+.symbols-8 {
+  width: 10rem;
+  right: 30rem;
+  top: 8rem;
+  z-index: 60;
+}
+
+.symbols-9 {
+  width: 10rem;
+  right: 0px;
+  top: 30rem;
+  z-index: 60;
+}
+
+.symbols-10 {
+  width: 10rem;
+  right: 0px;
+  top: -5rem;
+  z-index: 60;
+}
+
+.symbols-11 {
+  width: 10rem;
+  right: 30rem;
+  top: 38rem;
+  z-index: 60;
+}
+
+.symbols-12 {
+  width: 10rem;
+  right: 20rem;
+  top: 20rem;
+  z-index: 60;
+}
+
+.symbols-13 {
+  width: 10rem;
+  right: 30rem;
+  top: 300rem;
+  z-index: 60;
+}
+
+.symbols-14 {
+  width: 10rem;
+  right: 17rem;
+  top: 30rem;
+  z-index: 60;
+}
+
+.symbols-15 {
+  width: 10rem;
+  right: 30rem;
+  top: 45rem;
+  z-index: 60;
+}
+
+.symbols-16 {
+  width: 10rem;
+  right: 10rem;
+  top: -2rem;
+  z-index: 60;
+}
+
+.symbols-17 {
+  width: 10rem;
+  right: 0px;
+  top: 20rem;
+  z-index: 60;
+}
+
+.symbols-18 {
+  width: 10rem;
+  right: 0px;
+  top: 10rem;
+  z-index: 60;
+}
+
+.symbols-19 {
+  width: 10rem;
+  right: 10rem;
+  top: 20rem;
+  z-index: 60;
+}
+
+.symbols-20 {
+  width: 17rem;
+  right: 20rem;
+  top: -2rem;
+  z-index: 60;
+}
+
+.symbols-21 {
+  width: 10rem;
+  right: 40rem;
+  top: -2rem;
+  z-index: 60;
+}
+
+.symbols-22 {
+  width: 17rem;
+  right: 10rem;
+  top: 42rem;
+  z-index: 60;
+}
+
+.symbols-23 {
+  width: 10rem;
+  right: 0px;
+  top: 39rem;
+  z-index: 60;
+}
+
+.symbols-24 {
+  width: 10rem;
+  left: 20rem;
+  top: 35rem;
+  z-index: 60;
+}
+
+.symbols-25 {
+  width: 10rem;
+  left: 10rem;
+  top: 40rem;
+  z-index: 60;
+}
+
+.symbols-26 {
+  width: 10rem;
+  left: 20rem;
+  top: 44rem;
+  z-index: 60;
+}
+
+.symbols-27 {
+  width: 10rem;
+  right: 10rem;
+  top: 12rem;
+  z-index: 60;
+}
+.symbols-28 {
+  width: 10rem;
+  left: 0px;
+  top: 12rem;
+  z-index: 60;
+}
+.symbols-29 {
+  width: 10rem;
+  left: 13rem;
+  top: 9rem;
+  z-index: 60;
+}
+
+.symbols-30 {
+  width: 10rem;
+  left: 25rem;
+  top: 9rem;
+  z-index: 60;
+}
+
+.symbols-31 {
+  width: 10rem;
+  left: 10rem;
+  top: 20rem;
+  z-index: 60;
+}
+
+.symbols-32 {
+  width: 10rem;
+  left: 19rem;
+  top: 20rem;
+  z-index: 60;
+}
+
+.symbols-33 {
+  width: 10rem;
+  left: 22rem;
+  top: 26rem;
+  z-index: 60;
+}
+
+.symbols-34 {
+  width: 10rem;
+  left: 10rem;
+  top: 28rem;
+  z-index: 60;
+}
+
+.symbols-35 {
+  width: 10rem;
+  left: 13rem;
+  top: 2rem;
+  z-index: 60;
+}
+.symbols-36 {
+  width: 10rem;
+  left: 0px;
+  top: -5rem;
+  z-index: 60;
+}
+
+.symbols-37 {
+  width: 10rem;
+  left: 0px;
+  top: 45rem;
+  z-index: 60;
+}
+
+.symbols-38 {
+  width: 10rem;
+  left: 0px;
+  top: 4rem;
+  z-index: 60;
+}
+
+.symbols-39 {
+  width: 10rem;
+  left: 0px;
+  top: 22rem;
+  z-index: 60;
+}
+
+.symbols-40 {
+  width: 10rem;
+  left: 0px;
+  top: 30rem;
+  z-index: 60;
+}
+
+.big-grave {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+.big-place {
+  position: relative;
+  left: 50%;
+  top: 25rem;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  z-index: 3;
+}
+
+.grave-img {
+  width: 40%;
+  cursor: pointer;
+}
+
+.place-img {
+  width: 50%;
+  cursor: pointer;
+}

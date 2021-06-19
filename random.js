@@ -10,91 +10,172 @@ function showTombstones() {
 
 var symbols = [
   {
-    imgPath: "6.svg", text: "Знания", },
+    imgPath: "6.png",
+    text: "Знания",
+  },
   {
-    imgPath: "77.svg", text: "Победы", },
+    imgPath: "77.png",
+    text: "Победы",
+  },
   {
-    imgPath: "8.svg", text: "Дом", },
+    imgPath: "8.png",
+    text: "Дом",
+  },
   {
-    imgPath: "9.svg", text: "Дружелюбный", }, 
+    imgPath: "9.png",
+    text: "Дружелюбный",
+  },
   {
-    imgPath: "10.svg", text: "Одиночка", },
+    imgPath: "10.png",
+    text: "Одиночка",
+  },
   {
-    imgPath: "11.svg", text: "Адаптивный", },
+    imgPath: "11.png",
+    text: "Адаптивный",
+  },
   {
-    imgPath: "12.svg", text: "Спокойствия", },
+    imgPath: "12.png",
+    text: "Спокойствия",
+  },
   {
-    imgPath: "13.svg", text: "Процветания", }, 
+    imgPath: "13.png",
+    text: "Процветания",
+  },
   {
-    imgPath: "14.svg", text: "Заботливый", },
+    imgPath: "14.png",
+    text: "Заботливый",
+  },
   {
-    imgPath: "15.svg", text: "Вдумчивый", },
+    imgPath: "15.png",
+    text: "Вдумчивый",
+  },
   {
-    imgPath: "16.svg", text: "Вечной памяти", },
+    imgPath: "16.png",
+    text: "Вечной памяти",
+  },
   {
-    imgPath: "17.svg", text: "Прощения", }, 
+    imgPath: "17.png",
+    text: "Прощения",
+  },
   {
-    imgPath: "18.svg", text: "Вечности", },
+    imgPath: "18.png",
+    text: "Вечности",
+  },
   {
-    imgPath: "19.svg", text: "Радости", },
+    imgPath: "19.png",
+    text: "Радости",
+  },
   {
-    imgPath: "20.svg", text: "Хорошей жизни", },
+    imgPath: "20.png",
+    text: "Хорошей жизни",
+  },
   {
-    imgPath: "21.svg", text: "Целеустремленный", }, 
+    imgPath: "21.png",
+    text: "Целеустремленный",
+  },
   {
-    imgPath: "22.svg", text: "Душа компании", },
+    imgPath: "22.png",
+    text: "Душа компании",
+  },
   {
-    imgPath: "23.svg", text: "Веселье", },
+    imgPath: "23.png",
+    text: "Веселье",
+  },
   {
-    imgPath: "24.svg", text: "Воскрешения", },
+    imgPath: "24.png",
+    text: "Воскрешения",
+  },
   {
-    imgPath: "25.svg", text: "Здоровья", }, 
+    imgPath: "25.png",
+    text: "Здоровья",
+  },
   {
-    imgPath: "26.svg", text: "Пессимист", },
+    imgPath: "26.png",
+    text: "Пессимист",
+  },
   {
-    imgPath: "27.svg", text: "Вдохновения", },
+    imgPath: "27.png",
+    text: "Вдохновения",
+  },
   {
-    imgPath: "28.svg", text: "Риск", },
+    imgPath: "28.png",
+    text: "Риск",
+  },
   {
-    imgPath: "29.svg", text: "Стойкий", }, 
+    imgPath: "29.png",
+    text: "Стойкий",
+  },
   {
-    imgPath: "30.svg", text: "Соулмейт", },
+    imgPath: "30.png",
+    text: "Соулмейт",
+  },
   {
-    imgPath: "31.svg", text: "Развитие", },
+    imgPath: "31.png",
+    text: "Развитие",
+  },
   {
-    imgPath: "32.svg", text: "Семьянин", },
+    imgPath: "32.png",
+    text: "Семьянин",
+  },
   {
-    imgPath: "33.svg", text: "Дом", }, 
-    {
-    imgPath: "34.svg", text: "Уверенности", },
+    imgPath: "33.png",
+    text: "Дом",
+  },
   {
-    imgPath: "35.svg", text: "Гармонии", },
+    imgPath: "34.png",
+    text: "Уверенности",
+  },
   {
-    imgPath: "36.svg", text: "Светлое будущее", },
+    imgPath: "35.png",
+    text: "Гармонии",
+  },
   {
-    imgPath: "37.svg", text: "Самостоятельный", }, 
+    imgPath: "36.png",
+    text: "Светлое будущее",
+  },
   {
-    imgPath: "38.svg", text: "Смелый", },
+    imgPath: "37.png",
+    text: "Самостоятельный",
+  },
   {
-    imgPath: "39.svg", text: "Счастья", },
+    imgPath: "38.png",
+    text: "Смелый",
+  },
   {
-    imgPath: "40.svg", text: "Новое начало", },
+    imgPath: "39.png",
+    text: "Счастья",
+  },
   {
-    imgPath: "41.svg", text: "Стабильность", }, 
+    imgPath: "40.png",
+    text: "Новое начало",
+  },
   {
-    imgPath: "42.svg", text: "Приключения", },
+    imgPath: "41.png",
+    text: "Стабильность",
+  },
   {
-    imgPath: "43.svg", text: "Дружелюбный", },
+    imgPath: "42.png",
+    text: "Приключения",
+  },
   {
-    imgPath: "44.svg", text: "Дети", },
+    imgPath: "43.png",
+    text: "Дружелюбный",
+  },
   {
-    imgPath: "45.svg", text: "Карьера", }, 
+    imgPath: "44.png",
+    text: "Дети",
+  },
   {
-    imgPath: "46.svg", text: "Внимательный", },
+    imgPath: "45.png",
+    text: "Карьера",
+  },
+  {
+    imgPath: "46.png",
+    text: "Внимательный",
+  },
 ];
 
 var symbolsBox = document.querySelector(".symbols");
-symbols.forEach(function (symbol, index) {
   const symbolEl = document.createElement("div");
   symbolEl.classList.add("symbol", "symbols-" + (index + 1));
 
@@ -124,7 +205,6 @@ var causesOfDeath = [
   { imgPath: "grave4.png", text: "Старость" },
   { imgPath: "grave5.png", text: "Болезнь" },
 ];
-
 
 causesOfDeath.forEach(function (causeOfDeath) {
   var column = document.createElement("div");
