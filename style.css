@@ -24,7 +24,7 @@ html {
   border-radius: 3rem;
   border-width: 0.29rem;
   cursor: pointer;
-  width: 40%;
+  width: 35%;
   padding: 0;
   background-color: none;
   background: none;
@@ -88,7 +88,7 @@ html {
   position: relative;
   user-select: none;
   z-index: 40;
-  height: 80rem;
+  height: 60rem;
 }
 
 .symbol {
