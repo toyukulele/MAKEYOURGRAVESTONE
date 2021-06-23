@@ -76,7 +76,7 @@ html {
 .column-text {
   position: absolute;
   top: 100%;
-  left: 1rem;
+  left: 5%;
   opacity: 0;
 }
 
@@ -97,6 +97,10 @@ html {
   z-index: 10;
 }
 
+.symbol img {
+  width: 100%;
+}
+
 .symbol-text {
   position: absolute;
   top: 100%;
@@ -115,7 +119,7 @@ html {
 }
 
 .symbols-1 {
-  width: 1rem;
+  width: 10rem;
   left: 32rem;
   top: -4rem;
   z-index: 60;
@@ -130,7 +134,7 @@ html {
 
 .symbols-3 {
   width: 10rem;
-  left: 10rem;
+  left: 35rem;
   bottom: 45rem;
   z-index: 60;
 }
@@ -200,7 +204,7 @@ html {
 .symbols-13 {
   width: 10rem;
   right: 30rem;
-  top: 300rem;
+  top: 30rem;
   z-index: 60;
 }
 
@@ -338,7 +342,7 @@ html {
 .symbols-33 {
   width: 10rem;
   left: 22rem;
-  top: 26rem;
+  top: 30rem;
   z-index: 60;
 }
 

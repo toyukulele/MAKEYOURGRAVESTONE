@@ -118,10 +118,6 @@ var symbols = [
     text: "Семьянин",
   },
   {
-    imgPath: "33.png",
-    text: "Дом",
-  },
-  {
     imgPath: "34.png",
     text: "Уверенности",
   },
@@ -176,6 +172,7 @@ var symbols = [
 ];
 
 var symbolsBox = document.querySelector(".symbols");
+symbols.forEach(function (symbol, index) {
   const symbolEl = document.createElement("div");
   symbolEl.classList.add("symbol", "symbols-" + (index + 1));
 
