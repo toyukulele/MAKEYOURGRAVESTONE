@@ -188,6 +188,8 @@ symbols.forEach(function (symbol, index) {
   symbolsBox.appendChild(symbolEl);
 });
 
+
+
 var randomButton = document.querySelector(".button");
 randomButton.addEventListener("click", showTombstones);
 
