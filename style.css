@@ -403,7 +403,7 @@ html {
 .big-place {
   position: relative;
   left: 50%;
-  top: 17rem;
+  top: 10rem;
   transform: translate(-50%, -50%);
   width: 70%;
   z-index: 3;
@@ -412,9 +412,11 @@ html {
 .grave-img {
   width: 40%;
   cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
 .place-img {
   width: 50%;
   cursor: pointer;
+  transition: transform 0.2s ease;
 }
