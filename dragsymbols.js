@@ -29,10 +29,11 @@ Array.from(symbols)
       moveAt(event.pageX, event.pageY);
 
       function moveAt(pageX, pageY) {
-        symbol.style.left = (pageX - shiftX) / 10 + "rem";
-        symbol.style.top = (pageY - shiftY) / 10 + "rem";
+        symbol.style.left =
+          (pageX - shiftX) / ((10 * window.innerWidth) / 1440) + "rem";
+        symbol.style.top =
+          (pageY - shiftY) / ((10 * window.innerWidth) / 1440) + "rem";
       }
-
       function onMouseMove(event) {
         moveAt(event.pageX, event.pageY);
       }
