@@ -402,8 +402,8 @@ html {
 
 .big-place {
   position: relative;
-  left: 48%;
-  top: 19rem;
+  left: 49%;
+  top: 20rem;
   transform: translate(-50%, -50%);
   width: 70%;
   z-index: 3;
